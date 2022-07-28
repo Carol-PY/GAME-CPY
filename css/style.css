@@ -1,6 +1,11 @@
 body {
-    background-color: lightcoral;
+    background-color: rgb(238, 202, 202);
 }
 h1 {
     color: goldenrod;
+}
+
+/* CLASSES */
+.displayGrid{
+    display: grid;
 }
