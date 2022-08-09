@@ -1,11 +1,52 @@
 body {
-    background-color: rgb(238, 202, 202);
+    background-color: rgb(245, 233, 233);
 }
 h1 {
-    color: goldenrod;
+    color: rgb(248, 196, 66);
 }
+
+input {
+        --background: #fff;
+        --border-default: #D0D0DF;
+        --border-active: #3D6DF9;
+        --shadow-default: #{rgba(#202048, .12)};
+}
+
+button{
+    background-color: #fbeee0;
+    border: 2px solid #422800;
+    border-radius: 50px;
+    box-shadow: #422800 4px 4px 0 0;
+    color: #422800;
+    cursor: pointer;
+    display: inline-block;
+    font-weight: 600;
+    font-size: 18px;
+    padding: 0 18px;
+    line-height: 50px;
+    text-align: center;
+    text-decoration: none;
+}
+
+button:hover {
+    background-color: #fff;
+}
+
+button:active {
+    box-shadow: #422800 2px 2px 0 0;
+    transform: translate(2px, 2px);
+}
+
+
 
 /* CLASSES */
 .displayGrid{
     display: grid;
+}
+
+@media (min-width: 768px) {
+    .button-74 {
+        min-width: 120px;
+        padding: 0 25px;
+    }
 }
