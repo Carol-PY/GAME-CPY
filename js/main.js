@@ -1,7 +1,6 @@
 
 var numeroPensado = Math.round(Math.random()*10);
     var input = document.querySelector("input");
-    input.focus();
 
 	function verificar() {
 
@@ -17,7 +16,6 @@ var numeroPensado = Math.round(Math.random()*10);
 		}
 
 		input.value = "";
-		input.focus();
 
 	} 
 
